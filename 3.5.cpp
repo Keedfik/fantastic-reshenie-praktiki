@@ -1,4 +1,4 @@
-#include <iostream> // подключаем cin/cout
+#include <iostream> // ГЇГ®Г¤ГЄГ«ГѕГ·Г ГҐГ¬ cin/cout
 #include <fstream> 
 
 using namespace std;
@@ -32,13 +32,13 @@ void Factorial(int L) {
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
+    //setlocale(LC_ALL, "Russian");
 
     int N;
-    cout << "Введите число, факториал которого нужно посчитать: ";
+    cout << "Enter number: ";
     cin >> N;
 
     Factorial(N);
 
-    system ("pause");
+    //system ("pause");
 }
