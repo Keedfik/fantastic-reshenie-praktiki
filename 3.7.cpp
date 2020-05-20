@@ -1,4 +1,4 @@
-#include <iostream> // подключаем cin/cout
+#include <iostream> // ГЇГ®Г¤ГЄГ«ГѕГ·Г ГҐГ¬ cin/cout
 
 
 using namespace std;
@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
+    //setlocale(LC_ALL, "Russian");
 
     long int F1 = 1, F2 = 2, F = 0;
     long double S = 2;
@@ -17,7 +17,7 @@ int main()
         F2 = F;
     } while (F <= 4000000);
 
-    cout << "Сумма всех четных чисел Фибоначчи,непревышающих 4 млн'а  =  " << S << endl;
+    cout << "Summ  =  " << S << endl;
 
-    system ("pause");
+    //system ("pause");
 }
