@@ -1,15 +1,15 @@
-#include <iostream> // подключаем cin/cout
+#include <iostream> // ГЇГ®Г¤ГЄГ«ГѕГ·Г ГҐГ¬ cin/cout
 #include <fstream> 
 
 using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
+    //setlocale(LC_ALL, "Russian");
 
     int N, a=0, d=1;
 
-    cout << "Введите целое положтельное число" << endl;
+    cout << "Enter number" << endl;
     cin >> N;
 
     while (N)
@@ -21,5 +21,5 @@ int main()
     cout << a << endl;
 
 
-    system ("pause");
+    //system ("pause");
 }
