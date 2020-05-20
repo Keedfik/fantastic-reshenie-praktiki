@@ -1,17 +1,17 @@
-#include <iostream> // подключаем cin/cout
+#include <iostream> // ГЇГ®Г¤ГЄГ«ГѕГ·Г ГҐГ¬ cin/cout
 #include <fstream> 
 
 using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
+    //setlocale(LC_ALL, "Russian");
 
     int a, b;
 
-    cout << "Введите натуральное число а" << endl;
+    cout << "Enter Г " << endl;
     cin >> a;
-    cout << "Введите натуральное число b" << endl;
+    cout << "Enter b" << endl;
     cin >> b;
 
     for (int i = a; i > 0; i--) {
@@ -21,5 +21,5 @@ int main()
         }
     }
 
-    system ("pause");
+    //system ("pause");
 }
