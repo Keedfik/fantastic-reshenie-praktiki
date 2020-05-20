@@ -1,4 +1,4 @@
-#include <iostream> // подключаем cin/cout
+#include <iostream> // ГЇГ®Г¤ГЄГ«ГѕГ·Г ГҐГ¬ cin/cout
 #include <math.h>
 #include <stdlib.h>
 
@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
+    //setlocale(LC_ALL, "Russian");
 
     int a = 0, b=0;
     
@@ -23,5 +23,5 @@ int main()
     int r = b - a;
     cout << b << " - " << a << " = " << r << endl;
 
-    system ("pause");
+    //system ("pause");
 }
