@@ -1,4 +1,4 @@
-#include <iostream> // подключаем cin/cout
+#include <iostream> // ГЇГ®Г¤ГЄГ«ГѕГ·Г ГҐГ¬ cin/cout
 #include <math.h>
 #include <stdlib.h>
 
@@ -29,7 +29,7 @@ void HELP_ME(int s, int oi) {
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
+    //setlocale(LC_ALL, "Russian");
 
     int summ = 1000;
     int step = 100;
@@ -37,5 +37,5 @@ int main()
     HELP_ME(summ, step);
 
     
-    system ("pause");
+    //system ("pause");
 }
