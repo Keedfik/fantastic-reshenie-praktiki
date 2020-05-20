@@ -1,4 +1,4 @@
-#include <iostream> // подключаем cin/cout
+#include <iostream> // ГЇГ®Г¤ГЄГ«ГѕГ·Г ГҐГ¬ cin/cout
 #include <stdio.h> 
 #include <string>
 
@@ -20,10 +20,10 @@ void  IsPalindrom(string txt) {
 	}
 
     if (prov == true) {
-        cout << "Палиндром" << endl;
+        cout << "Palindrom" << endl;
     }
     else {
-        cout << "Не палиндром" << endl;
+        cout << "Ne palindrom" << endl;
     }
 
 };
@@ -31,13 +31,13 @@ void  IsPalindrom(string txt) {
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
+    //setlocale(LC_ALL, "Russian");
 
     string txt;
-    cout << "Введите слово ";
+    cout << "Enter string ";
     cin>>txt;
 
     IsPalindrom(txt);
 
-    system ("pause");
+    //system ("pause");
 }
